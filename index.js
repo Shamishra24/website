@@ -17,7 +17,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin:["https://first-website1-9nr2.onrender.com" , "http://localhost:5174"],
+ origin:["https://first-website1-9nr2.onrender.com" , "https://admin-pannel-pi7k.onrender.com"],
  credentials:true
 }))
 
